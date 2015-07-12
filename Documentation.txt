@@ -1,0 +1,15 @@
+Documentation:
+
+1. To access Twitter api first set authentication access_token and secret key in config/Config.php
+
+2. Get tweets using url
+
+/getTweets?hash_tag=custserv&result=30&retweet=1
+
+Parameter :
+
+i) hash_tag : Search tweets using hash_tag, default hash_tag is "custserv".
+
+ii) results: How many tweets you want to display.
+
+iii) retweet: Filter result based on retweets. 
